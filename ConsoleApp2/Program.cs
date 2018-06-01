@@ -55,7 +55,7 @@ namespace ConsoleApp2
                     PlayWithHashTable();
                     break;
                 case '3':
-                    Console.WriteLine("Entering PremComb i");
+                    Console.WriteLine("Entering PremCombi");
 
                     foreach(Tuple<int,int> t in PlayPremutation(new HashSet<int>() { 1, 2, 3, 4, 5,6,7,8,9,10,11,12,13,14,15,16,17,18 }))
                     {
